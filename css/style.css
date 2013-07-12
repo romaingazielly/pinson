@@ -15,11 +15,11 @@
 /*-------------------
     Global
 -------------------*/
-body { width:100%; background:url('../img/assets/bg-body.jpg'); }
+body { width:100%; font-size:100%; background:url('../img/assets/bg-body.jpg'); }
 p, a { color:#fff; }
 .clearfix { *zoom: 1; }
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; z-index:20 }
-.content { position:relative; width:1020px; margin:0 auto 30px auto; background:url('../img/assets/bg-blockslider.png')no-repeat center 491px; }
+.content { position:relative; width:90%; margin:0 auto 30px auto; background:url('../img/assets/bg-blockslider.png')no-repeat center 491px; }
 .title { font:18px "hn", "Arial"; color:#fff; text-align:left; text-transform:uppercase; margin:20px 0; padding:0 0 5px 0; background:url('../img/assets/border-title.gif') no-repeat 0px bottom; }
 .blue-link { color:#038180; text-decoration:underline; font:bold 12px "Arial"; background:url('../img/assets/bg-link.jpg') no-repeat 0 center; padding:0 0 0 20px; }
 .blue-link2 { color:#038180; text-decoration:underline; font:bold 12px "Arial"; background:url('../img/assets/bg-link-black.jpg') no-repeat 0 center; padding:0 0 0 20px; }
@@ -39,13 +39,13 @@ nav.breadcrumb span { color:#fff; }
 /*-------------------
     Header
 -------------------*/
-header { background:url('../img/assets/pttrn-header.jpg') repeat-x 0 0; font:300 14px "Arial"; }
-header ul.top-head { width:1020px; height:128px; background:url('../img/assets/bg-header.jpg') no-repeat 0 0; margin:auto; color:#fff; list-style:none; }
-header ul.top-head li { float:left; }
-header ul.top-head li#head-contact { padding:0px 0 0 50px; background:url('../img/assets/pod.png') no-repeat 5px 3px; margin:55px 0 0 40px; }
+header { background:url('../img/assets/pttrn-header.jpg') repeat-x 0 0; font:300 0.875em "Arial"; }
+header ul.top-head { width:90% /* 1020px */; height:128px; background:url('../img/assets/bg-header.jpg') no-repeat 0 0; margin:auto; color:#fff; list-style:none; }
+header ul.top-head li { display:inline-block; float:left; }
+header ul.top-head li#head-contact { padding:0px 0 0 50px; background:url('../img/assets/pod.png') no-repeat 5px 3px; margin:55px 0 0 3.921568627451%; width:29.078431372549%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 header ul.top-head li#head-contact span { display:block; font:500 18px "Arial"; margin: 5px 0 0 0; }
-header ul.top-head li#head-logo { margin:28px 0 0 166px; }
-header ul.top-head li#head-social { float:right; margin:55px 40px 0 0; text-align:right; }
+header ul.top-head li#head-logo { margin:44px auto 0 auto; text-align:center; width:33%; }
+header ul.top-head li#head-social { margin:55px 3.921568627451% 0 0; width:29.078431372549%; text-align:right; }
 header ul.top-head li#head-social > div { margin:5px 0 0 0; }
 header ul.top-head li#head-social .fb-like { width:59px; height:20px; overflow:hidden; }
 header nav { width:1020px; margin:auto; height:50px; }
@@ -64,13 +64,13 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 -------------------*/
 .block-slider { padding:0 20px; }
 .block-slider p { color:#000; }
-.pinson-slider { position:relative; display:block; width:940px; height: 533px; }
+.pinson-slider { position:relative; display:block; background:red; height: 533px; width:1020px; margin:auto}
 .block-slider > a { float:right; margin:10px 40px 0 0; }
-.pinson-slider .car-photo { display:block; float:left; width:640px; height:433px; overflow:hidden; }
+.pinson-slider .car-photo { display:block; float:left; width:62.745098%; max-width:640px; height:433px; overflow:hidden; }
 .pinson-slider .car-photo div { position:relative; width:1300px; height:433px; }
 .pinson-slider .car-photo div img { position:absolute; top:0; left:640px; }
 .pinson-slider .car-photo div img#slider-1 { left:0px; }
-.pinson-slider .car-infos { position:relative; display:block; float:left; width:300px; height:433px; background:#fff url('../img/slider/assets/bg-aside.png') no-repeat bottom right; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.pinson-slider .car-infos { position:relative; display:block; float:left; min-width:225px; max-width:380px; width:37.254902%; height:433px; background:#fff url('../img/slider/assets/bg-aside.png') no-repeat bottom right; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 .pinson-slider .car-infos .car-infos-details { position:absolute; display:none; left:30px; top:50px; }
 .pinson-slider .car-infos #car-slider-1 { display:block; }
 .pinson-slider .car-infos .car-infos-details h1 { font:bold 24px "Arial"; text-transform:uppercase;  }
@@ -81,7 +81,7 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .pinson-slider .car-infos div.car-more a { display:block; padding:40px 0 0 0; font:bold 12px "Arial"; text-decoration:none; color:#171717; background:url('../img/slider/assets/more.png') no-repeat top center; background-size:32px; transition:all .1s ease; }
 .pinson-slider .car-infos div.car-more a:hover { background-size:34px;  }
 .pinson-slider nav { float:left; width:100%; }
-.pinson-slider nav ul li { display:block; float:left; width:25%; height:100px; color:#fff; padding:20px; cursor:pointer; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; background:url('../img/slider/assets/bg-mini.jpg') no-repeat; border-top:#000 solid 4px;  }
+.pinson-slider nav ul li { display:block; float:left; width:25%; min-width:210px; max-width:255px; height:100px; color:#fff; padding:20px 1%; cursor:pointer; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; background:url('../img/slider/assets/bg-mini.jpg') repeat; border-top:#000 solid 4px;  }
 .pinson-slider nav ul li img { float:left; border:#000 solid 3px; margin:0px 10px 40px 0; }
 .pinson-slider nav ul li h2 { float:left; font:bold 14px "Arial"; text-transform:uppercase; width:100px; }
 .pinson-slider nav ul li p { float:left; font:12px "Arial"; width:100px; color:#fff; }
@@ -118,7 +118,7 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .dernierement section p { padding:0 0 0 7px; font:12px "Arial"; color:#0c0c0c; }
 .dernierement section p.km { float:left; font:bold 14px "Arial"; height:30px; margin:5px 0 0 0; border-top:solid 1px #e5e5e5; width:50%; line-height:30px; text-align:center; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 .dernierement section p.price { display:inline-block; background: #ebd090; font:bold 14px "Arial"; margin:5px 0 0 0; height:30px; border-top:solid 1px #e5e5e5; width:107px; line-height:30px; text-align:center; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
-.dernierement > a { float:right; margin:0 20px 0 0; }
+.dernierement > a { float:right; margin:0 20px 0 250px; }
 
 /*-------------------
     Recemment

@@ -24,15 +24,15 @@ $(function() {
 			else {
 				// Slide
 				if(numImgSlider > g_Slider.currentImg) {
-					$('#'+idImgSlider).css({ 'left': '650px' }).animate({ 'left': '0px' });
-					$('.car-photo div img.current').animate({ 'left': '-650px' }, function(){
+					$('#'+idImgSlider).css({ 'left': '640px' }).animate({ 'left': '0px' });
+					$('.car-photo div img.current').animate({ 'left': '-640px' }, function(){
 						$('.car-photo div img').removeClass('current');
 						$('#'+idImgSlider).addClass('current');
 					});
 				}
 				else{
-					$('#'+idImgSlider).css({ 'left': '-650px' }).animate({ 'left': '0px' });
-					$('.car-photo div img.current').animate({ 'left': '650px' }, function(){
+					$('#'+idImgSlider).css({ 'left': '-640px' }).animate({ 'left': '0px' });
+					$('.car-photo div img.current').animate({ 'left': '640px' }, function(){
 						$('.car-photo div img').removeClass('current');
 						$('#'+idImgSlider).addClass('current');
 					});
