@@ -24,6 +24,8 @@ p, a { color:#fff; }
 .blue-link { color:#038180; text-decoration:underline; font:bold 12px "Arial"; background:url('../img/assets/bg-link.jpg') no-repeat 0 center; padding:0 0 0 20px; }
 .blue-link2 { color:#038180; text-decoration:underline; font:bold 12px "Arial"; background:url('../img/assets/bg-link-black.jpg') no-repeat 0 center; padding:0 0 0 20px; }
 .gold { color:#edd18e; }
+.hidden { opacity:0; }
+.displayed { display:none; }
 nav.breadcrumb { margin:20px 0 25px 10px; }
 nav.breadcrumb a { color:#fff; font:normal 14px "Arial"; text-decoration:none; margin:0px 10px; }
 nav.breadcrumb a:first-child { font-weight:bold; background:url('../img/assets/border-title.gif') no-repeat 0px bottom; padding:0 0 7px 0; }
@@ -87,6 +89,7 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .pinson-slider nav ul li p { float:left; font:12px "Arial"; width:100px; color:#fff; }
 .pinson-slider nav ul li.current { background:#fff; color:#0c0c0c; border-top:#d0b36e solid 4px; }
 .pinson-slider nav ul li.current p { color:#000; }
+#vendue { width:197px; height:114px; background:url('../img/assets/vendue.png') no-repeat 0 0; position:absolute;z-index:3; }
 
 /*-------------------
     Visualizer
@@ -148,6 +151,14 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .liste form .styled-select select { background:transparent; width:165px; padding:3px 0 0 5px; font-size:16px; border:0; -webkit-appearance: none; }
 
 /*-------------------
+    Rachat
+-------------------*/
+.rachat { float:left; width:610px; padding:0 40px 0 20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.rachat h1 { background:none; margin:0px; }
+.rachat p { font:13px "Arial"; }
+.breadcrumb-form { width:323px; height:42px; margin:20px auto; background:url('../img/assets/step-form.png') no-repeat 0 0; }
+
+/*-------------------
     Promo
 -------------------*/
 .bloc-promo { float:left; width:300px; }
@@ -166,7 +177,7 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .bloc-formulaire-mid nav a { display:block; float:left; font:bold 14px "Arial"; text-decoration:none; color:#000; height:50px; width:150px; line-height:50px; background:url('../img/assets/bg-menu.jpg') 0 50px; color:#fff; }
 .bloc-formulaire-mid nav a.current { color:#000; background:#fff; }
 .bloc-formulaire-mid-contact { background:#fff; }
-.bloc-formulaire-mid h1 { color:#d0b36e; font:bold 18px "Arial"; padding:30px 30px 0 30px; }
+.bloc-formulaire-mid h1 { color:#d0b36e; font: 18px "Arial"; padding:30px 30px 0 30px; }
 .bloc-formulaire-mid form { float:left; width:325px; font:12px "Arial"; margin:0 0 40px 30px; border-right:solid 1px #dddddd }
 .bloc-formulaire-mid form p { margin:15px 0 20px 0; width:260px; }
 .bloc-formulaire-mid form label { float:left; width:100px; line-height:25px }
@@ -203,7 +214,8 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .bloc-descriptif-details #recap a.button { display:block; margin:20px 0 10px 20px; line-height:40px; color:#7d6c43; text-shadow:1px 1px 1px #f3d48d; background:url('../img/assets/btn-or-start.png') no-repeat left 0; text-transform:uppercase; height:40px; width:250px; }
 .bloc-descriptif-details #recap a.button:hover { text-decoration:none; }
 .bloc-descriptif-details #recap a.button span { display:block; background:url('../img/assets/btn-or-end.png') no-repeat right 0 ; height:40px; padding:0 0 0 1px; }
-.bloc-descriptif-details #recap p.price { color:#edd18e; font:bold 30px "Arial";  }
+.bloc-descriptif-details #recap p.price { color:#edd18e; font:bold 30px "Arial"; }
+.bloc-descriptif-details #recap .btn-vendu { width:190px; height:34px; margin:0 0 0 20px; background:#ac1818 url('../img/assets/lock.png') no-repeat 10px center; color:#fff; font:bold 14px "Arial"; line-height:34px; padding:0 0 0 30px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; cursor:default; }
 .bloc-descriptif-details #details { padding:10px 0 20px 15px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; background:url('../img/assets/bg-descriptif-bottom.png') ; }
 .bloc-descriptif-details #details h2 { color:#edd18e; font:bold 14px "Arial"; padding: 10px 0 0 20px; background:url('../img/assets/sprite-cara.png') no-repeat left -33px; margin:0 0 15px 0; }
 .bloc-descriptif-details #details h2:first-child { background:url('../img/assets/sprite-cara.png') no-repeat left 11px; }
