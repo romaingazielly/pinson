@@ -58,8 +58,8 @@ $(function() {
 			var page = parseInt($(this).attr('id').substr(10));
 			
 			if(page != 3) {
-				$('#ajax-container').fadeOut('slow', function(){
-					if(page == 1 && g_currentStep != 1) {
+				if(page == 1 && g_currentStep != 1) {
+					$('#ajax-container').fadeOut('slow', function(){
 						$('.breadcrumb-form').css({ 'background-position': '0 0' });
 						$('#title-form').html('à propos de vous');
 						$('#form-rachat-'+g_currentStep).hide(function(){
@@ -68,8 +68,10 @@ $(function() {
 								g_currentStep = 1;
 							});
 						});
-					}
-					else if(page == 2 && g_currentStep != 2) {
+					});
+				}
+				else if(page == 2 && g_currentStep != 2) {
+					$('#ajax-container').fadeOut('slow', function(){
 						$('.breadcrumb-form').css({ 'background-position': '0 -42px' });
 						$('#title-form').html('à propos de votre véhicule');
 						$('#form-rachat-'+g_currentStep).hide(function(){
@@ -78,8 +80,8 @@ $(function() {
 								g_currentStep = 2;
 							});
 						});
-					}
-				});
+					});
+				}
 			}
 
 		}
