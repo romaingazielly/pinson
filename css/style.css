@@ -164,6 +164,8 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .rachat #form-rachat-2, .rachat #form-rachat-3 { display:none; }
 .rachat #form-rachat-3 p { width:100%; text-align:center; margin:0 0 20px 50px; }
 .rachat #form-rachat-3 input[type="text"] { width:260px; }
+.rachat figure { margin:30px 0; }
+.rachat figure figcaption { float:right; margin: 10px 40px 0 0; }
 .breadcrumb-form { width:323px; height:42px; margin:20px auto; background:url('../img/assets/step-form.png') no-repeat 0 0; }
 .breadcrumb-form a { float:left; }
 .breadcrumb-form #back-step-1 { display:block; width:41px; height:41px; }
@@ -221,6 +223,23 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .bloc-formulaire-rachat .button { display:block; margin:20px 0 10px 20px; line-height:40px; color:#7d6c43; text-shadow:1px 1px 1px #f3d48d; background:url('../img/assets/btn-or-start.png') no-repeat left 0; text-transform:uppercase; height:40px; float:right; }
 .bloc-formulaire-rachat .button:hover { text-decoration:none; }
 .bloc-formulaire-rachat .button span {  background:url('../img/assets/btn-or-end.png') no-repeat right 0 ; height:40px; padding:0 35px 0 10px; margin:0 0 0 10px; text-align:left; }
+.rdv-form { background:#fff; }
+.rdv-form h2 { text-transform:lowercase; text-align:left; padding:30px 0 0 30px; }
+.rdv-form p { color:#000; padding:0 0 0 30px; }
+.rdv-form h2:first-letter { text-transform:capitalize; }
+.rdv-form h3 { font:bold 14px "Arial"; padding:0 0 20px 0px; }
+.rdv-form form { margin:0; width:640px;  }
+.rdv-form .form-left, .rdv-form .form-right { float:left; width:305px; }
+.rdv-form .form-left { margin-left:30px; }
+.rdv-form .form-bottom { float:left; width:640px;  }
+.rdv-form .form-bottom h3 { margin:20px 0 0 30px; }
+.rdv-form .form-bottom p { margin:0; width:620px; }
+.rdv-form .form-bottom textarea { width:580px; margin:10px 0 0 30px; height:150px; }
+.rdv-form form label { width:95px; }
+.rdv-form form input[type="text"], .rdv-form form input[type="tel"], .rdv-form form input[type="email"] { width:177px; }
+.rdv-form .nextStep { margin:0 30px 30px 0px; }
+.contact-form { margin:20px 0 0 0; }
+
 
 /*-------------------
     Bloc-descriptif
@@ -246,6 +265,18 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .bloc-descriptif-details #details p { font:12px "Arial"; }  
 
 /*-------------------
+    Tarifs
+-------------------*/
+.bloc-tarif { float:left; margin:30px 0 0 0; }
+.bloc-tarif table { margin:30px 0 0 0; width:100%; }
+.bloc-tarif table tr th { background:#fade9b; font:bold 13px "Arial"; padding:10px 20px; color:#635535; border-left:solid 1px #e5cb8e; }
+.bloc-tarif table tr { background:#fff; }
+.bloc-tarif table tr td:first-child { color:#635535; font:bold 13px "Arial"; border:none; text-align:left; }
+.bloc-tarif table tr td { padding: 10px 20px; border-left:solid 1px #e9e9e9; font:bold 13px "Arial"; text-align:center; }
+.bloc-tarif table tr.style { background:#f3f3f3; }
+.bloc-tarif .lastp { margin:20px 0 0 0; }
+
+/*-------------------
     Footer
 -------------------*/
 footer { position:relative; background:url('../img/assets/bg-footer.jpg') repeat-x 0 0px; z-index:1; }
@@ -263,10 +294,8 @@ footer .content-footer .contact p { float:left; color:#fff; font:14px "Arial"; m
 footer .content-footer .contact a { float:right; margin:10px 75px 0 0; }
 footer .footer-sitemap { width:1020px; margin:auto; }
 footer .footer-sitemap nav { float:left; margin:0 60px 0 20px; }
-footer .footer-sitemap h2 { color:#fff; font:12px "hn", "Arial"; text-transform:uppercase; margin:0 0 10px 0 }
+footer .footer-sitemap h2 { color:#fff; font:12px "hn", "Arial"; text-transform:uppercase; margin:0 0 10px 0; }
 footer .footer-sitemap ul li a { color:#676767; font:12px "Arial"; text-decoration:none; }
 footer .footer-bottom { width:1020px; margin:20px auto 10px auto; text-align:center; }
 footer .footer-bottom li { display:inline; list-style:none; }
-footer .footer-bottom li a { font:12px "Arial"; text-decoration:none }
-
-
+footer .footer-bottom li a { font:12px "Arial"; text-decoration:none; }
