@@ -7,7 +7,6 @@ $(function() {
 		e.preventDefault();
 		var currentStep = parseInt($(this).attr('id').substr(11));
 		var nextStep = currentStep + 1;
-		console.log(nextStep);
 
 		// Vérification des champs
 		$('#form-rachat-'+currentStep+' input').each(function(){
@@ -83,12 +82,6 @@ $(function() {
 					});
 				}
 			}
-
 		}
-
-
 	});
-
-
-
 });
