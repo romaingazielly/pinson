@@ -27,13 +27,14 @@ p, a { color:#fff; }
 .gold { color:#edd18e; }
 .hidden { opacity:0; }
 .displayed { display:none; }
+.right { float:right; }
 nav.breadcrumb { margin:20px 0 25px 10px; }
 nav.breadcrumb a { color:#fff; font:normal 14px "Arial"; text-decoration:none; margin:0px 10px; }
 nav.breadcrumb a:first-child { font-weight:bold; background:url('../img/assets/border-title.gif') no-repeat 0px bottom; padding:0 0 7px 0; }
 nav.breadcrumb span { color:#fff; }
 .pagination { margin:10px 0; }
 .pagination p { float:left; color:#fff; font-weight:500; margin:10px 0 0 0; }
-.pagination> p.right { float:right; font:14px "Arial"; }
+.pagination > p.right { float:right; font:14px "Arial"; }
 .pagination p.right a { color:#fff; text-decoration:none; font:14px "Arial"; }
 .pagination p.right a img { padding:0 5px; }
 .pagination p.right a.current { color:#d0b36e; }
@@ -275,6 +276,25 @@ header nav ul li:hover ul li a:hover { background:#fff; color:#2f2f2f; }
 .bloc-tarif table tr td { padding: 10px 20px; border-left:solid 1px #e9e9e9; font:bold 13px "Arial"; text-align:center; }
 .bloc-tarif table tr.style { background:#f3f3f3; }
 .bloc-tarif .lastp { margin:20px 0 0 0; }
+
+/*-------------------
+    Classic
+-------------------*/
+.classic article { margin:0px 0 40px 0; }
+.classic article p a { color:#16a8a7; }
+.classic .visite aside .aside-top { background:#fff url('../img/assets/marker.png') no-repeat 30px center; margin:20px 0 0 0; }
+.classic .visite aside .aside-top div { margin:0 0 20px 100px; width:240px; float:left;  }
+.classic .visite aside .aside-top div h2 { color:#000; font:bold 14px "Arial"; text-align:left; padding:20px 0 0 0;  }
+.classic .visite aside .aside-top div p { color:#000; }
+.classic .visite aside .aside-top div + div { margin:17px 0 0 0; }
+.classic .visite aside .aside-bot { background:#f3f3f3; padding:25px 100px; }
+.classic .visite aside .aside-bot p { color:#000; margin:0 0 15px 0; }
+.classic .visite aside .aside-bot table { font:normal 13px "Arial"; width:450px; }
+.classic .visite figure { margin:0 ;}
+.classic nav { margin:70px 0 0 0; }
+.classic nav h2 { color:#fff; font:bold 12px "Arial"; text-align:left; margin:30px 0 10px 0; }
+.classic nav li { line-height:22px; }
+.classic nav ul li ul { margin-left:20px; }
 
 /*-------------------
     Footer
